@@ -7,7 +7,7 @@ module.exports = {
     hardhat:{
       forking:{
         enabled: true,
-        url: 'https://mainnet.infura.io/v3/7daf85c40c5d4f6187c849747ad0076b',
+        url: process.env.INFURA_NODE,
       },
       // timeout:100000,
       chainId: 1,
